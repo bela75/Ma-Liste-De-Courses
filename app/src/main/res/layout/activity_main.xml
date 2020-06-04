@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.formation.mylistview.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextArticles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/nom_de_l_article"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp"
+                tools:targetApi="o" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAddArticles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ajouter_un_article"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="69dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Supprimer l'article"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="69dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Mettre à jour"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="69dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/listeView"
+                style="@style/Widget.AppCompat.ListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:footerDividersEnabled="true"
+                android:headerDividersEnabled="true"
+                android:scrollbars="vertical"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

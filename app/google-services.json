@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "345939989698",
+    "firebase_url": "https://mysqllite.firebaseio.com",
+    "project_id": "mysqllite",
+    "storage_bucket": "mysqllite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345939989698:android:0939b3a7a3a6def1",
+        "android_client_info": {
+          "package_name": "com.example.mysqllite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345939989698-4tpudd3pqt1v7tv8u51oc8oj7i74op5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mysqllite",
+            "certificate_hash": "c281dab94d98006a7a0484125b5e09cb2d2022d3"
+          }
+        },
+        {
+          "client_id": "345939989698-5nf57cvblatmi606qmao34sc7dmuk271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCLB189vn-6KnK6CytUSpbzGDIjd3yVDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345939989698-5nf57cvblatmi606qmao34sc7dmuk271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

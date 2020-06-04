@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ma liste de course</string>
+    <string name="textview">TextView</string>
+    <string name="ajouter_un_article">Ajouter un article</string>
+    <string name="nom_de_l_article">Nom de l\'article?</string>
+    <string name="supprimer">Supprimer</string>
+</resources>
